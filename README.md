@@ -15,7 +15,8 @@ The packet included the following structure:
 For 16 QAM, four bits are converted to one symbol, ie, one complex number, as specified in the constellation diagram. The constellation diagram is specified as part of the wireless digital communication protocol. For us it is
 
 ![16-QAM constellation diagram, showing 16 symbols, each labelled with one of the 16 possible unique 4 bit string.](16qam-constellation.png)
-Figure: 16-QAM constellation diagram, showing 16 symbols, each labelled with one of the 16 possible unique 4 bit string. 
+
+*Figure: 16-QAM constellation diagram, showing 16 symbols, each labelled with one of the 16 possible unique 4 bit string.*
 
 The transmitted signal uses the square-root raised cosine pulse shape with parameter alpha=0.5. The pulse vector is 12 symbol periods long, six periods on each side of time=0 (at which the pulse is maximum). 
 
